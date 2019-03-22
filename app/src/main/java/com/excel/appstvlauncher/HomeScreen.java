@@ -14,7 +14,7 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Log.d( "asshole", "aaaa " );
-        UtilShell.executeNonSUShellCommandWithOp( "input keyevent 3" );
+        UtilShell.executeShellCommandWithOp( "input keyevent 3" );
         //UtilMisc.startApplicationUsingPackageName( this, "com.excel.appstvlauncher.secondgen" );
         finish();
     }
